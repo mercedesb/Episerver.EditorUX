@@ -16,26 +16,30 @@ namespace EditorUX
         [GroupDefinitions()]
         public static class GroupNames
         {
-            [Display(Name = "Contact", Order = 1)]
+            [Display(Name = "Demo", Order = 1)]
+            public const string Demo = "Demo";
+
+            [Display(Name = "Contact", Order = 2)]
             public const string Contact = "Contact";
 
-            [Display(Name = "Default", Order = 2)]
+            [Display(Name = "Default", Order = 3)]
             public const string Default = "Default";
 
-            [Display(Name = "Metadata", Order = 3)]
+            [Display(Name = "Metadata", Order = 4)]
             public const string MetaData = "Metadata";
 
-            [Display(Name = "News", Order = 4)]
+            [Display(Name = "News", Order = 5)]
             public const string News = "News";
 
-            [Display(Name = "Products", Order = 5)]
+            [Display(Name = "Products", Order = 6)]
             public const string Products = "Products";
 
-            [Display(Name = "SiteSettings", Order = 6)]
+            [Display(Name = "SiteSettings", Order = 7)]
             public const string SiteSettings = "SiteSettings";
 
-            [Display(Name = "Specialized", Order = 7)]
+            [Display(Name = "Specialized", Order = 8)]
             public const string Specialized = "Specialized";
+
         }
 
         /// <summary>

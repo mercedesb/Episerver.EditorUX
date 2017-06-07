@@ -16,3 +16,9 @@ h3 {EditMenuName:Header 3;}
     margin: 2% 0;
     opacity: 0.3;
 }
+
+a.btn-blue {
+  EditMenuTitle: Buttons;
+  EditMenuName: Blue Button;
+  ChangeElementType: true;
+}

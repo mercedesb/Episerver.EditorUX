@@ -42,6 +42,14 @@
         <name>Article</name>
         <description>Used to publish news articles on the website</description>
       </articlepage>
+      <uxpage>
+        <name>UX Page</name>
+        <description>Used to demonstrate editor UX customizations. Has the same content and design as the Article page.</description>
+      </uxpage>
+      <validationpage>
+        <name>Validation Page</name>
+        <description>Used to demonstrate custom validation messages</description>
+      </validationpage>
       <contactpage>
         <name>Contact</name>
         <description>Used to publish contact details for a specific contact</description>

@@ -4,13 +4,15 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace EditorUX.Models.Metadata
+namespace EditorUX.Business.Metadata
 {
+    /// <summary>
+    /// Add an asterisk to denote required, editable fields. Note, this does not work if property names are localized.
+    /// </summary>
     public class RequiredPropertiesMetadataExtender : IMetadataExtender
     {
         public void ModifyMetadata(ExtendedMetadata metadata, IEnumerable<Attribute> attributes)
         {
-            // Add asterisk to required (editable) properties
             IEnumerable<ContentDataMetadata> props = metadata.Properties.OfType<ContentDataMetadata>().Where(p => p.IsRequired && !p.IsReadOnly);
 
             foreach (var property in props)

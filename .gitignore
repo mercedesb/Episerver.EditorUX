@@ -242,3 +242,4 @@ ModelManifest.xml
 .fake/
 /SymetraPOC.Web/License.config
 /ChicagoOpenData/Properties/PublishProfiles/Production.pubxml
+/EditorUX/License.config
