@@ -1,6 +1,8 @@
 # Episerver.EditorUX
 An Episerver Alloy site with sample code for taking the editor experience up a notch
 
+Please note that you'll need to set up your own database to use this repo (empty Alloy sample db is fine)
+
 Please find examples for the following use cases:
 
 ### Editor.css 
